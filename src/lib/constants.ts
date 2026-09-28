@@ -14,7 +14,11 @@ export const COMPANY = {
   phoneRaw:    '+919407000101',
   whatsapp:    process.env.NEXT_PUBLIC_WA_NUMBER ?? '919407000101',
   address:     'Bhopal, Madhya Pradesh, India',
-  siteUrl:     process.env.NEXT_PUBLIC_SITE_URL ?? 'https://clickdecoded.com',
+  siteUrl:
+  process.env.NEXT_PUBLIC_SITE_URL?.trim() ||
+  (process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : 'http://localhost:3000'),
 } as const
 
 // ── Social Links ─────────────────────────────────────────────
