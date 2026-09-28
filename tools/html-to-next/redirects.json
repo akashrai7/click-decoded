@@ -1,0 +1,952 @@
+[
+  {
+    "source": "/about.html",
+    "destination": "/about",
+    "permanent": true
+  },
+  {
+    "source": "/ai-ad-creatives.html",
+    "destination": "/services/ai-ad-creatives",
+    "permanent": true
+  },
+  {
+    "source": "/ai-ad-creatives",
+    "destination": "/services/ai-ad-creatives",
+    "permanent": true
+  },
+  {
+    "source": "/ai-automation.html",
+    "destination": "/services/ai-automation",
+    "permanent": true
+  },
+  {
+    "source": "/ai-automation",
+    "destination": "/services/ai-automation",
+    "permanent": true
+  },
+  {
+    "source": "/ai-automation-bhopal.html",
+    "destination": "/locations/bhopal/ai-automation",
+    "permanent": true
+  },
+  {
+    "source": "/ai-automation-bhopal",
+    "destination": "/locations/bhopal/ai-automation",
+    "permanent": true
+  },
+  {
+    "source": "/ai-automation-guide-indian-businesses-2026.html",
+    "destination": "/blog/ai-automation-guide-indian-businesses-2026",
+    "permanent": true
+  },
+  {
+    "source": "/ai-automation-guide-indian-businesses-2026",
+    "destination": "/blog/ai-automation-guide-indian-businesses-2026",
+    "permanent": true
+  },
+  {
+    "source": "/ai-automation-indore.html",
+    "destination": "/locations/indore/ai-automation",
+    "permanent": true
+  },
+  {
+    "source": "/ai-automation-indore",
+    "destination": "/locations/indore/ai-automation",
+    "permanent": true
+  },
+  {
+    "source": "/ai-brand-visibility.html",
+    "destination": "/services/ai-brand-visibility",
+    "permanent": true
+  },
+  {
+    "source": "/ai-brand-visibility",
+    "destination": "/services/ai-brand-visibility",
+    "permanent": true
+  },
+  {
+    "source": "/ai-chatbot-development.html",
+    "destination": "/services/ai-chatbot-development",
+    "permanent": true
+  },
+  {
+    "source": "/ai-chatbot-development",
+    "destination": "/services/ai-chatbot-development",
+    "permanent": true
+  },
+  {
+    "source": "/ai-content.html",
+    "destination": "/services/ai-content",
+    "permanent": true
+  },
+  {
+    "source": "/ai-content",
+    "destination": "/services/ai-content",
+    "permanent": true
+  },
+  {
+    "source": "/ai-search-optimization.html",
+    "destination": "/services/ai-search-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/ai-search-optimization",
+    "destination": "/services/ai-search-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/ai-video.html",
+    "destination": "/services/ai-video",
+    "permanent": true
+  },
+  {
+    "source": "/ai-video",
+    "destination": "/services/ai-video",
+    "permanent": true
+  },
+  {
+    "source": "/answer-engine-optimization.html",
+    "destination": "/services/answer-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/answer-engine-optimization",
+    "destination": "/services/answer-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/blog.html",
+    "destination": "/blog",
+    "permanent": true
+  },
+  {
+    "source": "/blogging.html",
+    "destination": "/services/blogging",
+    "permanent": true
+  },
+  {
+    "source": "/blogging",
+    "destination": "/services/blogging",
+    "permanent": true
+  },
+  {
+    "source": "/business-website-guide-india-2026.html",
+    "destination": "/blog/business-website-guide-india-2026",
+    "permanent": true
+  },
+  {
+    "source": "/business-website-guide-india-2026",
+    "destination": "/blog/business-website-guide-india-2026",
+    "permanent": true
+  },
+  {
+    "source": "/careers.html",
+    "destination": "/careers",
+    "permanent": true
+  },
+  {
+    "source": "/contact.html",
+    "destination": "/contact",
+    "permanent": true
+  },
+  {
+    "source": "/cookie-policy.html",
+    "destination": "/legal/cookie-policy",
+    "permanent": true
+  },
+  {
+    "source": "/cookie-policy",
+    "destination": "/legal/cookie-policy",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-bhopal.html",
+    "destination": "/locations/bhopal/digital-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-bhopal",
+    "destination": "/locations/bhopal/digital-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-indore.html",
+    "destination": "/locations/indore/digital-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/digital-marketing-indore",
+    "destination": "/locations/indore/digital-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/drone-video.html",
+    "destination": "/services/drone-video",
+    "permanent": true
+  },
+  {
+    "source": "/drone-video",
+    "destination": "/services/drone-video",
+    "permanent": true
+  },
+  {
+    "source": "/ecommerce-dev-bhopal.html",
+    "destination": "/locations/bhopal/ecommerce-development",
+    "permanent": true
+  },
+  {
+    "source": "/ecommerce-dev-bhopal",
+    "destination": "/locations/bhopal/ecommerce-development",
+    "permanent": true
+  },
+  {
+    "source": "/ecommerce-development.html",
+    "destination": "/services/ecommerce-development",
+    "permanent": true
+  },
+  {
+    "source": "/ecommerce-development",
+    "destination": "/services/ecommerce-development",
+    "permanent": true
+  },
+  {
+    "source": "/ecommerce-development-indore.html",
+    "destination": "/locations/indore/ecommerce-development",
+    "permanent": true
+  },
+  {
+    "source": "/ecommerce-development-indore",
+    "destination": "/locations/indore/ecommerce-development",
+    "permanent": true
+  },
+  {
+    "source": "/ecommerce-seo.html",
+    "destination": "/services/ecommerce-seo",
+    "permanent": true
+  },
+  {
+    "source": "/ecommerce-seo",
+    "destination": "/services/ecommerce-seo",
+    "permanent": true
+  },
+  {
+    "source": "/ecommerce-seo-bhopal.html",
+    "destination": "/locations/bhopal/ecommerce-seo",
+    "permanent": true
+  },
+  {
+    "source": "/ecommerce-seo-bhopal",
+    "destination": "/locations/bhopal/ecommerce-seo",
+    "permanent": true
+  },
+  {
+    "source": "/ecommerce-seo-indore.html",
+    "destination": "/locations/indore/ecommerce-seo",
+    "permanent": true
+  },
+  {
+    "source": "/ecommerce-seo-indore",
+    "destination": "/locations/indore/ecommerce-seo",
+    "permanent": true
+  },
+  {
+    "source": "/email-marketing.html",
+    "destination": "/services/email-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/email-marketing",
+    "destination": "/services/email-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/generative-engine-optimization.html",
+    "destination": "/services/generative-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/generative-engine-optimization",
+    "destination": "/services/generative-engine-optimization",
+    "permanent": true
+  },
+  {
+    "source": "/gmb-marketing.html",
+    "destination": "/services/gmb-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/gmb-marketing",
+    "destination": "/services/gmb-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/google-ads.html",
+    "destination": "/services/google-ads",
+    "permanent": true
+  },
+  {
+    "source": "/google-ads",
+    "destination": "/services/google-ads",
+    "permanent": true
+  },
+  {
+    "source": "/google-ads-bhopal.html",
+    "destination": "/locations/bhopal/google-ads",
+    "permanent": true
+  },
+  {
+    "source": "/google-ads-bhopal",
+    "destination": "/locations/bhopal/google-ads",
+    "permanent": true
+  },
+  {
+    "source": "/google-ads-indore.html",
+    "destination": "/locations/indore/google-ads",
+    "permanent": true
+  },
+  {
+    "source": "/google-ads-indore",
+    "destination": "/locations/indore/google-ads",
+    "permanent": true
+  },
+  {
+    "source": "/google-trusted-photography.html",
+    "destination": "/services/google-trusted-photography",
+    "permanent": true
+  },
+  {
+    "source": "/google-trusted-photography",
+    "destination": "/services/google-trusted-photography",
+    "permanent": true
+  },
+  {
+    "source": "/hd-photography.html",
+    "destination": "/services/hd-photography",
+    "permanent": true
+  },
+  {
+    "source": "/hd-photography",
+    "destination": "/services/hd-photography",
+    "permanent": true
+  },
+  {
+    "source": "/honest.html",
+    "destination": "/honest",
+    "permanent": true
+  },
+  {
+    "source": "/how-we-work.html",
+    "destination": "/how-we-work",
+    "permanent": true
+  },
+  {
+    "source": "/index.html",
+    "destination": "/",
+    "permanent": true
+  },
+  {
+    "source": "/industry-automotive.html",
+    "destination": "/industries/automotive",
+    "permanent": true
+  },
+  {
+    "source": "/industry-automotive",
+    "destination": "/industries/automotive",
+    "permanent": true
+  },
+  {
+    "source": "/industry-ecommerce.html",
+    "destination": "/industries/ecommerce",
+    "permanent": true
+  },
+  {
+    "source": "/industry-ecommerce",
+    "destination": "/industries/ecommerce",
+    "permanent": true
+  },
+  {
+    "source": "/industry-education.html",
+    "destination": "/industries/education",
+    "permanent": true
+  },
+  {
+    "source": "/industry-education",
+    "destination": "/industries/education",
+    "permanent": true
+  },
+  {
+    "source": "/industry-finance.html",
+    "destination": "/industries/finance",
+    "permanent": true
+  },
+  {
+    "source": "/industry-finance",
+    "destination": "/industries/finance",
+    "permanent": true
+  },
+  {
+    "source": "/industry-healthcare.html",
+    "destination": "/industries/healthcare",
+    "permanent": true
+  },
+  {
+    "source": "/industry-healthcare",
+    "destination": "/industries/healthcare",
+    "permanent": true
+  },
+  {
+    "source": "/industry-hospitality.html",
+    "destination": "/industries/hospitality",
+    "permanent": true
+  },
+  {
+    "source": "/industry-hospitality",
+    "destination": "/industries/hospitality",
+    "permanent": true
+  },
+  {
+    "source": "/industry-it-saas.html",
+    "destination": "/industries/it-saas",
+    "permanent": true
+  },
+  {
+    "source": "/industry-it-saas",
+    "destination": "/industries/it-saas",
+    "permanent": true
+  },
+  {
+    "source": "/industry-legal.html",
+    "destination": "/industries/legal",
+    "permanent": true
+  },
+  {
+    "source": "/industry-legal",
+    "destination": "/industries/legal",
+    "permanent": true
+  },
+  {
+    "source": "/industry-manufacturing.html",
+    "destination": "/industries/manufacturing",
+    "permanent": true
+  },
+  {
+    "source": "/industry-manufacturing",
+    "destination": "/industries/manufacturing",
+    "permanent": true
+  },
+  {
+    "source": "/industry-real-estate.html",
+    "destination": "/industries/real-estate",
+    "permanent": true
+  },
+  {
+    "source": "/industry-real-estate",
+    "destination": "/industries/real-estate",
+    "permanent": true
+  },
+  {
+    "source": "/industry-restaurants.html",
+    "destination": "/industries/restaurants",
+    "permanent": true
+  },
+  {
+    "source": "/industry-restaurants",
+    "destination": "/industries/restaurants",
+    "permanent": true
+  },
+  {
+    "source": "/influencer-video.html",
+    "destination": "/services/influencer-video",
+    "permanent": true
+  },
+  {
+    "source": "/influencer-video",
+    "destination": "/services/influencer-video",
+    "permanent": true
+  },
+  {
+    "source": "/internship.html",
+    "destination": "/internship",
+    "permanent": true
+  },
+  {
+    "source": "/landing-pages.html",
+    "destination": "/services/landing-pages",
+    "permanent": true
+  },
+  {
+    "source": "/landing-pages",
+    "destination": "/services/landing-pages",
+    "permanent": true
+  },
+  {
+    "source": "/link-building.html",
+    "destination": "/services/link-building",
+    "permanent": true
+  },
+  {
+    "source": "/link-building",
+    "destination": "/services/link-building",
+    "permanent": true
+  },
+  {
+    "source": "/link-building-bhopal.html",
+    "destination": "/locations/bhopal/link-building",
+    "permanent": true
+  },
+  {
+    "source": "/link-building-bhopal",
+    "destination": "/locations/bhopal/link-building",
+    "permanent": true
+  },
+  {
+    "source": "/link-building-indore.html",
+    "destination": "/locations/indore/link-building",
+    "permanent": true
+  },
+  {
+    "source": "/link-building-indore",
+    "destination": "/locations/indore/link-building",
+    "permanent": true
+  },
+  {
+    "source": "/linkedin-ads.html",
+    "destination": "/services/linkedin-ads",
+    "permanent": true
+  },
+  {
+    "source": "/linkedin-ads",
+    "destination": "/services/linkedin-ads",
+    "permanent": true
+  },
+  {
+    "source": "/local-seo.html",
+    "destination": "/services/local-seo",
+    "permanent": true
+  },
+  {
+    "source": "/local-seo",
+    "destination": "/services/local-seo",
+    "permanent": true
+  },
+  {
+    "source": "/local-seo-bhopal.html",
+    "destination": "/locations/bhopal/local-seo",
+    "permanent": true
+  },
+  {
+    "source": "/local-seo-bhopal",
+    "destination": "/locations/bhopal/local-seo",
+    "permanent": true
+  },
+  {
+    "source": "/local-seo-indore.html",
+    "destination": "/locations/indore/local-seo",
+    "permanent": true
+  },
+  {
+    "source": "/local-seo-indore",
+    "destination": "/locations/indore/local-seo",
+    "permanent": true
+  },
+  {
+    "source": "/meta-ads.html",
+    "destination": "/services/meta-ads",
+    "permanent": true
+  },
+  {
+    "source": "/meta-ads",
+    "destination": "/services/meta-ads",
+    "permanent": true
+  },
+  {
+    "source": "/meta-ads-bhopal.html",
+    "destination": "/locations/bhopal/meta-ads",
+    "permanent": true
+  },
+  {
+    "source": "/meta-ads-bhopal",
+    "destination": "/locations/bhopal/meta-ads",
+    "permanent": true
+  },
+  {
+    "source": "/meta-ads-indore.html",
+    "destination": "/locations/indore/meta-ads",
+    "permanent": true
+  },
+  {
+    "source": "/meta-ads-indore",
+    "destination": "/locations/indore/meta-ads",
+    "permanent": true
+  },
+  {
+    "source": "/our-work.html",
+    "destination": "/our-work",
+    "permanent": true
+  },
+  {
+    "source": "/pricing.html",
+    "destination": "/pricing",
+    "permanent": true
+  },
+  {
+    "source": "/privacy.html",
+    "destination": "/legal/privacy",
+    "permanent": true
+  },
+  {
+    "source": "/privacy",
+    "destination": "/legal/privacy",
+    "permanent": true
+  },
+  {
+    "source": "/product-photography.html",
+    "destination": "/services/product-photography",
+    "permanent": true
+  },
+  {
+    "source": "/product-photography",
+    "destination": "/services/product-photography",
+    "permanent": true
+  },
+  {
+    "source": "/programmatic-seo.html",
+    "destination": "/services/programmatic-seo",
+    "permanent": true
+  },
+  {
+    "source": "/programmatic-seo",
+    "destination": "/services/programmatic-seo",
+    "permanent": true
+  },
+  {
+    "source": "/retargeting.html",
+    "destination": "/services/retargeting",
+    "permanent": true
+  },
+  {
+    "source": "/retargeting",
+    "destination": "/services/retargeting",
+    "permanent": true
+  },
+  {
+    "source": "/seo-guide-indian-businesses-2026.html",
+    "destination": "/blog/seo-guide-indian-businesses-2026",
+    "permanent": true
+  },
+  {
+    "source": "/seo-guide-indian-businesses-2026",
+    "destination": "/blog/seo-guide-indian-businesses-2026",
+    "permanent": true
+  },
+  {
+    "source": "/seo-services.html",
+    "destination": "/services/seo",
+    "permanent": true
+  },
+  {
+    "source": "/seo-services",
+    "destination": "/services/seo",
+    "permanent": true
+  },
+  {
+    "source": "/seo-services-bhopal.html",
+    "destination": "/locations/bhopal/seo",
+    "permanent": true
+  },
+  {
+    "source": "/seo-services-bhopal",
+    "destination": "/locations/bhopal/seo",
+    "permanent": true
+  },
+  {
+    "source": "/seo-services-indore.html",
+    "destination": "/locations/indore/seo",
+    "permanent": true
+  },
+  {
+    "source": "/seo-services-indore",
+    "destination": "/locations/indore/seo",
+    "permanent": true
+  },
+  {
+    "source": "/service-areas.html",
+    "destination": "/service-areas",
+    "permanent": true
+  },
+  {
+    "source": "/shopping-ads.html",
+    "destination": "/services/shopping-ads",
+    "permanent": true
+  },
+  {
+    "source": "/shopping-ads",
+    "destination": "/services/shopping-ads",
+    "permanent": true
+  },
+  {
+    "source": "/sitemap.html",
+    "destination": "/sitemap",
+    "permanent": true
+  },
+  {
+    "source": "/social-media-bhopal.html",
+    "destination": "/locations/bhopal/social-media-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/social-media-bhopal",
+    "destination": "/locations/bhopal/social-media-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/social-media-marketing-indore.html",
+    "destination": "/locations/indore/social-media-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/social-media-marketing-indore",
+    "destination": "/locations/indore/social-media-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/technical-seo-audit.html",
+    "destination": "/services/technical-seo-audit",
+    "permanent": true
+  },
+  {
+    "source": "/technical-seo-audit",
+    "destination": "/services/technical-seo-audit",
+    "permanent": true
+  },
+  {
+    "source": "/technical-seo-audit-bhopal.html",
+    "destination": "/locations/bhopal/technical-seo-audit",
+    "permanent": true
+  },
+  {
+    "source": "/technical-seo-audit-bhopal",
+    "destination": "/locations/bhopal/technical-seo-audit",
+    "permanent": true
+  },
+  {
+    "source": "/technical-seo-audit-indore.html",
+    "destination": "/locations/indore/technical-seo-audit",
+    "permanent": true
+  },
+  {
+    "source": "/technical-seo-audit-indore",
+    "destination": "/locations/indore/technical-seo-audit",
+    "permanent": true
+  },
+  {
+    "source": "/terms.html",
+    "destination": "/legal/terms",
+    "permanent": true
+  },
+  {
+    "source": "/terms",
+    "destination": "/legal/terms",
+    "permanent": true
+  },
+  {
+    "source": "/ui-ux.html",
+    "destination": "/services/ui-ux",
+    "permanent": true
+  },
+  {
+    "source": "/ui-ux",
+    "destination": "/services/ui-ux",
+    "permanent": true
+  },
+  {
+    "source": "/virtual-tour.html",
+    "destination": "/services/virtual-tour",
+    "permanent": true
+  },
+  {
+    "source": "/virtual-tour",
+    "destination": "/services/virtual-tour",
+    "permanent": true
+  },
+  {
+    "source": "/web-development.html",
+    "destination": "/services/web-development",
+    "permanent": true
+  },
+  {
+    "source": "/web-development",
+    "destination": "/services/web-development",
+    "permanent": true
+  },
+  {
+    "source": "/web-development-bhopal.html",
+    "destination": "/locations/bhopal/web-development",
+    "permanent": true
+  },
+  {
+    "source": "/web-development-bhopal",
+    "destination": "/locations/bhopal/web-development",
+    "permanent": true
+  },
+  {
+    "source": "/web-development-indore.html",
+    "destination": "/locations/indore/web-development",
+    "permanent": true
+  },
+  {
+    "source": "/web-development-indore",
+    "destination": "/locations/indore/web-development",
+    "permanent": true
+  },
+  {
+    "source": "/whatsapp-automation.html",
+    "destination": "/services/whatsapp-automation",
+    "permanent": true
+  },
+  {
+    "source": "/whatsapp-automation",
+    "destination": "/services/whatsapp-automation",
+    "permanent": true
+  },
+  {
+    "source": "/whatsapp-automation-bhopal.html",
+    "destination": "/locations/bhopal/whatsapp-automation",
+    "permanent": true
+  },
+  {
+    "source": "/whatsapp-automation-bhopal",
+    "destination": "/locations/bhopal/whatsapp-automation",
+    "permanent": true
+  },
+  {
+    "source": "/whatsapp-automation-indore.html",
+    "destination": "/locations/indore/whatsapp-automation",
+    "permanent": true
+  },
+  {
+    "source": "/whatsapp-automation-indore",
+    "destination": "/locations/indore/whatsapp-automation",
+    "permanent": true
+  },
+  {
+    "source": "/whatsapp-marketing.html",
+    "destination": "/services/whatsapp-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/whatsapp-marketing",
+    "destination": "/services/whatsapp-marketing",
+    "permanent": true
+  },
+  {
+    "source": "/whitelabel-ai.html",
+    "destination": "/white-label/ai",
+    "permanent": true
+  },
+  {
+    "source": "/whitelabel-ai",
+    "destination": "/white-label/ai",
+    "permanent": true
+  },
+  {
+    "source": "/whitelabel-geo.html",
+    "destination": "/white-label/geo",
+    "permanent": true
+  },
+  {
+    "source": "/whitelabel-geo",
+    "destination": "/white-label/geo",
+    "permanent": true
+  },
+  {
+    "source": "/whitelabel-ppc.html",
+    "destination": "/white-label/ppc",
+    "permanent": true
+  },
+  {
+    "source": "/whitelabel-ppc",
+    "destination": "/white-label/ppc",
+    "permanent": true
+  },
+  {
+    "source": "/whitelabel-reporting.html",
+    "destination": "/white-label/reporting",
+    "permanent": true
+  },
+  {
+    "source": "/whitelabel-reporting",
+    "destination": "/white-label/reporting",
+    "permanent": true
+  },
+  {
+    "source": "/whitelabel-seo.html",
+    "destination": "/white-label/seo",
+    "permanent": true
+  },
+  {
+    "source": "/whitelabel-seo",
+    "destination": "/white-label/seo",
+    "permanent": true
+  },
+  {
+    "source": "/whitelabel-web-development.html",
+    "destination": "/white-label/web-development",
+    "permanent": true
+  },
+  {
+    "source": "/whitelabel-web-development",
+    "destination": "/white-label/web-development",
+    "permanent": true
+  },
+  {
+    "source": "/wordpress-dev-bhopal.html",
+    "destination": "/locations/bhopal/wordpress-development",
+    "permanent": true
+  },
+  {
+    "source": "/wordpress-dev-bhopal",
+    "destination": "/locations/bhopal/wordpress-development",
+    "permanent": true
+  },
+  {
+    "source": "/wordpress-development.html",
+    "destination": "/services/wordpress-development",
+    "permanent": true
+  },
+  {
+    "source": "/wordpress-development",
+    "destination": "/services/wordpress-development",
+    "permanent": true
+  },
+  {
+    "source": "/wordpress-development-indore.html",
+    "destination": "/locations/indore/wordpress-development",
+    "permanent": true
+  },
+  {
+    "source": "/wordpress-development-indore",
+    "destination": "/locations/indore/wordpress-development",
+    "permanent": true
+  },
+  {
+    "source": "/workflow-automation.html",
+    "destination": "/services/workflow-automation",
+    "permanent": true
+  },
+  {
+    "source": "/workflow-automation",
+    "destination": "/services/workflow-automation",
+    "permanent": true
+  },
+  {
+    "source": "/youtube-ads.html",
+    "destination": "/services/youtube-ads",
+    "permanent": true
+  },
+  {
+    "source": "/youtube-ads",
+    "destination": "/services/youtube-ads",
+    "permanent": true
+  }
+]

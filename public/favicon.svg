@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <rect x="4" y="4" width="92" height="92" rx="11" fill="#0D1B2A" stroke="#F59E0B" stroke-width="6"/>
+  <!-- Left bracket -->
+  <polygon points="22,80 22,30 46,30 46,36 28,36 28,80" fill="#1B3A6B"/>
+  <!-- Arrow diagonal -->
+  <polygon points="40,76 56,20 76,20 76,28 60,28 44,80" fill="#F59E0B"/>
+  <!-- Arrow head -->
+  <polygon points="60,20 80,20 80,40 74,40 74,26 60,26" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 100" fill="none">
+  <!-- Icon mark (white version) -->
+  <rect x="4" y="4" width="92" height="92" rx="11" fill="none" stroke="#ffffff" stroke-width="6"/>
+  <!-- Left bracket / base shape -->
+  <polygon points="22,80 22,30 46,30 46,36 28,36 28,80" fill="rgba(255,255,255,0.5)"/>
+  <!-- Arrow diagonal -->
+  <polygon points="40,76 56,20 76,20 76,28 60,28 44,80" fill="#ffffff"/>
+  <!-- Arrow head top-right -->
+  <polygon points="60,20 80,20 80,40 74,40 74,26 60,26" fill="#ffffff"/>
+
+  <!-- CLICK text -->
+  <text x="112" y="58" font-family="Inter,Arial,sans-serif" font-weight="900" font-size="42" fill="#ffffff" letter-spacing="-1">CLICK</text>
+  <!-- DECODED text -->
+  <text x="112" y="88" font-family="Inter,Arial,sans-serif" font-weight="700" font-size="26" fill="#F59E0B" letter-spacing="4">DECODED</text>
+</svg>
