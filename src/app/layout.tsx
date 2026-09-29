@@ -2,6 +2,7 @@
 import type { Metadata } from 'next'
 import Script from 'next/script'
 import './globals.css'
+import './blog/blog.css'
 import Header from '@/components/chrome/Header'
 import Footer from '@/components/chrome/Footer'
 import WhatsAppFab from '@/components/chrome/WhatsAppFab'
