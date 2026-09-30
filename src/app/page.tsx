@@ -2,6 +2,7 @@
 // src/app/page.tsx — generated from index.html (do not edit header/footer here)
 import type { Metadata } from 'next'
 import PageScript from '@/components/chrome/PageScript'
+import { getWordPressPosts } from '@/lib/wordpress'
 
 export const metadata: Metadata = {
   title: "Click Decoded — SEO · Marketing · AI Automation",
@@ -868,6 +869,201 @@ h1,h2,h3,h4{font-weight:800;line-height:1.1;letter-spacing:-.025em;color:var(--n
 .bcard-body .read:hover{gap:8px;}
 
 /* ╔══════════════════════════════════════════╗
+   ║  HOME BLOG — WORDPRESS POSTS             ║
+   ╚══════════════════════════════════════════╝ */
+
+.home-blog-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+
+.home-blog-card{
+  background:#fff;
+  border:1px solid var(--bdr);
+  border-radius:20px;
+  overflow:hidden;
+  transition:
+    transform .25s ease,
+    box-shadow .25s ease,
+    border-color .25s ease;
+}
+
+.home-blog-card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 18px 45px rgba(13,27,42,.10);
+  border-color:rgba(42,69,115,.12);
+}
+
+.home-blog-image{
+  height:205px;
+  display:block;
+  position:relative;
+  overflow:hidden;
+  background:
+    linear-gradient(
+      135deg,
+      var(--n-dark),
+      var(--n)
+    );
+}
+
+.home-blog-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  transition:transform .4s ease;
+}
+
+.home-blog-card:hover .home-blog-image img{
+  transform:scale(1.045);
+}
+
+.home-blog-image::after{
+  content:'';
+  position:absolute;
+  inset:0;
+  background:
+    linear-gradient(
+      to top,
+      rgba(13,27,42,.55),
+      transparent 58%
+    );
+  pointer-events:none;
+}
+
+.home-blog-category{
+  position:absolute;
+  left:16px;
+  bottom:15px;
+  z-index:2;
+
+  display:inline-flex;
+  align-items:center;
+
+  padding:5px 12px;
+
+  background:var(--o);
+  color:#fff;
+
+  border-radius:20px;
+
+  font-size:10.5px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+}
+
+.home-blog-placeholder{
+  width:100%;
+  height:100%;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-size:42px;
+
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(255,255,255,.08),
+      transparent 55%
+    );
+}
+
+.home-blog-body{
+  padding:24px;
+}
+
+.home-blog-date{
+  font-size:11.5px;
+  color:var(--s);
+  margin-bottom:10px;
+}
+
+.home-blog-body h3{
+  font-size:17px;
+  line-height:1.42;
+  margin-bottom:12px;
+}
+
+.home-blog-body h3 a{
+  color:var(--n);
+  transition:color .18s ease;
+}
+
+.home-blog-body h3 a:hover{
+  color:var(--o);
+}
+
+.home-blog-body p{
+  font-size:13.5px;
+  color:var(--m);
+  line-height:1.65;
+  margin-bottom:18px;
+
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+  overflow:hidden;
+}
+
+.home-blog-link{
+  display:inline-flex;
+  align-items:center;
+  gap:5px;
+
+  font-size:13px;
+  font-weight:700;
+
+  color:var(--o);
+
+  transition:gap .18s ease;
+}
+
+.home-blog-link:hover{
+  gap:9px;
+}
+
+.home-blog-empty{
+  text-align:center;
+  padding:48px 24px;
+
+  border:1px solid var(--bdr);
+  border-radius:20px;
+  background:var(--bg);
+}
+
+.home-blog-empty h3{
+  font-size:20px;
+  margin-bottom:8px;
+}
+
+.home-blog-empty p{
+  font-size:14px;
+  color:var(--m);
+}
+
+@media(max-width:900px){
+  .home-blog-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media(max-width:600px){
+  .home-blog-grid{
+    grid-template-columns:1fr;
+  }
+
+  .home-blog-image{
+    height:210px;
+  }
+}
+
+
+/* ╔══════════════════════════════════════════╗
    ║  TOOLS MARQUEE                           ║
    ╚══════════════════════════════════════════╝ */
 .tools-section{background:var(--bg);padding:60px 0;overflow:hidden;}
@@ -1398,7 +1594,53 @@ const js1 = `(function(){
 })();
 })();`
 
-export default function Page() {
+export default async function Page() {
+
+ type HomeBlogPost = {
+    id?: string
+    databaseId?: number
+    slug?: string
+    title?: string
+    excerpt?: string | null
+    date?: string | null
+    featuredImage?: {
+      node?: {
+        sourceUrl?: string | null
+        altText?: string | null
+      } | null
+    } | null
+    categories?: {
+      nodes?: Array<{
+        id?: string
+        name?: string | null
+        slug?: string | null
+      }>
+    } | null
+  }
+
+  let blogPosts: HomeBlogPost[] = []
+
+  try {
+    const result = await getWordPressPosts()
+
+    if (Array.isArray(result)) {
+      blogPosts = result as HomeBlogPost[]
+    } else if (
+      result &&
+      typeof result === 'object' &&
+      'posts' in result &&
+      Array.isArray((result as { posts?: unknown }).posts)
+    ) {
+      blogPosts = (result as { posts: HomeBlogPost[] }).posts
+    }
+  } catch {
+    blogPosts = []
+  }
+
+  blogPosts = blogPosts
+    .filter((post) => post?.slug && post?.title?.trim())
+    .slice(0, 6)
+
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: css }} />
@@ -2015,6 +2257,159 @@ export default function Page() {
 </div>
 </div>
 </div>
+
+
+<section className="blog-section">
+  <div className="wrap">
+
+    <div className="sec-h rv" style={{ marginBottom: '48px' }}>
+      <div className="pill pill-b">Our Blog</div>
+
+      <h2>
+        Insights That
+        <br />
+        <em>Actually Work.</em>
+      </h2>
+
+      <p>
+        Practical insights on SEO, Google Ads, AI automation, web development,
+        and digital growth — written by practitioners.
+      </p>
+    </div>
+
+    {blogPosts.length > 0 ? (
+      <div className="home-blog-grid">
+
+        {blogPosts.map((post, index) => {
+          const category =
+            post.categories?.nodes?.[0]?.name || 'Digital Marketing'
+
+          const image =
+            post.featuredImage?.node?.sourceUrl || null
+
+          const excerpt =
+            post.excerpt
+              ?.replace(/<[^>]*>/g, ' ')
+              .replace(/\s+/g, ' ')
+              .trim() ||
+            'Read the complete article on Click Decoded.'
+
+          const shortExcerpt =
+            excerpt.length > 145
+              ? `${excerpt.slice(0, 142).trim()}...`
+              : excerpt
+
+          const date = post.date
+            ? new Date(post.date).toLocaleDateString('en-IN', {
+                day: 'numeric',
+                month: 'short',
+                year: 'numeric',
+              })
+            : ''
+
+          return (
+            <article
+              key={post.id || post.databaseId || post.slug}
+              className={`home-blog-card rv${
+                index % 3 === 1 ? '2' : index % 3 === 2 ? '3' : ''
+              }`}
+            >
+              <a
+                href={`/blog/${post.slug}`}
+                className="home-blog-image"
+              >
+                {image ? (
+                  <img
+                    src={image}
+                    alt={
+                      post.featuredImage?.node?.altText ||
+                      post.title ||
+                      'Blog article'
+                    }
+                    loading="lazy"
+                  />
+                ) : (
+                  <div className="home-blog-placeholder">
+                    📝
+                  </div>
+                )}
+
+                <span className="home-blog-category">
+                  {category}
+                </span>
+              </a>
+
+              <div className="home-blog-body">
+
+                {date && (
+                  <div className="home-blog-date">
+                    {date}
+                  </div>
+                )}
+
+                <h3>
+                  <a href={`/blog/${post.slug}`}>
+                    {post.title}
+                  </a>
+                </h3>
+
+                <p>
+                  {shortExcerpt}
+                </p>
+
+                <a
+                  href={`/blog/${post.slug}`}
+                  className="home-blog-link"
+                >
+                  Read Article
+                  <span>→</span>
+                </a>
+
+              </div>
+            </article>
+          )
+        })}
+
+      </div>
+    ) : (
+      <div className="home-blog-empty">
+        <h3>Our latest insights are coming soon.</h3>
+        <p>
+          New SEO, marketing, AI and web development articles will appear here.
+        </p>
+      </div>
+    )}
+
+    <div
+      style={{
+        textAlign: 'center',
+        marginTop: '38px',
+      }}
+    >
+      <a href="/blog" className="btn btn-n">
+        View All Articles
+        <svg
+          width="14"
+          height="14"
+          viewBox="0 0 14 14"
+          fill="none"
+        >
+          <path
+            d="M3 7h8M7 3l4 4-4 4"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+
       <section className="blog-section">
 <div className="wrap">
 <div className="sec-h rv" style={{ marginBottom: '48px' }}>
