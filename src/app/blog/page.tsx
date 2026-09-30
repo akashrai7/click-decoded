@@ -132,8 +132,6 @@ function makeExcerpt(post: WPPost) {
 }
 
 function getPostUrl(post: WPPost) {
-  if (post.uri) return post.uri;
-
   if (post.slug) {
     return `/blog/${post.slug}`;
   }
